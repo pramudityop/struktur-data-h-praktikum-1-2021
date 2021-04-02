@@ -1,1 +1,1 @@
-# struktur-data-h-praktikum-1-2021
+# Struktur Data H Praktikum 1 2021
