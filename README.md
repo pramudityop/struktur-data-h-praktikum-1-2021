@@ -1,43 +1,50 @@
 # Struktur Data H Praktikum 1 2021
 ## Cari Tanah
 ### Verdict
-![Verdict Cari Tanah]("/Verdict/CariTanah.png")
+Terminated due to timeout
 #### Bukti
+![VCT](./Verdict/CariTanah.JPG)
 ### Penjelasan Soal
 ### Penjelasan Solusi
-### Visualisasi Solusi
 
 ## Malur Rajin
 ### Verdict
+
 #### Bukti
+![VMR](./Verdict/MalurRajin.jpg)
 ### Penjelasan Soal
 ### Penjelasan Solusi
-### Visualisasi Solusi
 
 ## Garasi Mobil Saha
 ### Verdict
+
 #### Bukti
+![VGMS](./Verdict/GarasiMobilSaha.jpg)
 ### Penjelasan Soal
 ### Penjelasan Solusi
 ### Visualisasi Solusi
 
 ## Genjil Ganap
 ### Verdict
+
 #### Bukti
+![VGG](./Verdict/GenjilGanap.JPG)
 ### Penjelasan Soal
 ### Penjelasan Solusi
 ### Visualisasi Solusi
 
 ## Bread Problemo
 ### Verdict
+
 #### Bukti
+![VBP](./Verdict/BreadProblemo.JPG)
 ### Penjelasan Soal
 ### Penjelasan Solusi
-### Visualisasi Solusi
 
 ## Nadut & Cayo
 ### Verdict
+
 #### Bukti
+![VN&C](/Verdict/Nadut&Cayo.JPG)
 ### Penjelasan Soal
 ### Penjelasan Solusi
-### Visualisasi Solusi
