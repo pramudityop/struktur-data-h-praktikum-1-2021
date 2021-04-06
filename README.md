@@ -18,7 +18,8 @@ Wrong Answer
 ### Penjelasan Soal
 Diminta untuk menentukan jumlah buku yang malur harus pisahkan dengan diikuti nama buku
 ### Penjelasan Solusi
-
+Program akan meminta input `banyaknya_case`, `prio_number`, dan `nama_matkul_sekarang`. Program akan mengurutkan prioritas berdasarkan  `prio_number` yang dimasukkan.
+ketika priority `low_index` lebih kecil daripada `j`, index terendah akan dirubah menjadi j lalu `low_prio` disamakan dengan `priority[low_index]`. Nama dari matkul akan dimasukkan ke `nama_temp` lalu `low_index` dibalikkan ke 0. Program akan mengecek `matkul_kerjain` sudah kosong atau belum, jika tidak kosong maka program akan output top dari `matkul_kerjain` lalu akan melakukan pop. Jika sewaktu waktu program menemukan -1, maka prioritas tertinggi akan dikerjakan dan `banyaknya_mengerjakan` ditambah 1.
 
 ## Garasi Mobil Saha
 ### Verdict
