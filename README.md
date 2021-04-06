@@ -52,6 +52,25 @@ Wrong Answer
 ### Penjelasan Soal
 Diminta untuk menggambarkan pemindahan roti oleh ibu dengan output roti yang telah dipindahkan apakah sesuai dengan permintaan Ray atau tidak
 ### Penjelasan Solusi
+Program akan meminta `N_jumlah_roti` dan `T_banyaknya_pemindahan_roti`. Program akan membuat stack `tumpukan_ray` dan `tumpukan_kakak` lalu `N_jumlah_roti` akan di push ke `tumpukan_ray`. Program akan meminta instruksi pemindahan berdasarkan input user. Program akan meminta input berupa angka 1 dan 2.
+
+- Bila input berupa 1, maka program akan mengecek apakah `tumpukan_ray` habis. Bila tidak habis, maka `roti_yang_dipindah` akan disamakan dengan `tumpukan_ray`, dipush ke `tumpukan_kakak` lalu `tumpukan_ray` akan mengalami *pop*.
+- Input 2 sama seperti input 1, dengan perbedaan berupa `tumpukan_ray` yang mengalami *push*, dan `tumpukan_kakak` mengalami *pop*.
+- Apabila instruksi yang di input bukan 1 dan 2, maka program akan keluar dari loop dengan output "*TumpukAnnya saLah!*".
+
+Setelah diberi input ke program, program akan mengecek roti milik Ray dan kakaknya.
+- Apabila `tumpukan_ray` dicek ternyata kosong, program akan mengeluarkan output "*Ray SangaT MaraH!*".
+
+Program akan mengecek kosong nya `tumpukan_ray` dengan iterasi seperti berikut.
+
+- Bila `tumpukan_ray` kosong, dan `tumpukan_kakak` tidak kosong, program akan output "-"
+- ketika `tumpukan_ray` tidak kosong, program akan mengecek top untuk di output pada string lalu di pop
+
+Setelah selesai, program akan mengecek `tumpukan_kakak`
+
+- Bila `tumpukan_kakak` kosong, program akan output ":("
+- Bila tumpukan kakak tidak kosong, program akan output top dari `tumpukan_kakak`, lalu di pop.
+
 
 
 ## Nadut & Cayo
